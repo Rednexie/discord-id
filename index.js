@@ -99,7 +99,7 @@ app.get("/user/:id", (req, res) => {
       pfp: profilePictureUrl,
       creation: createdAt,
       date: date,
-      badges: badges.join(" ve "),
+      badges: badges.join(", "),
       nitro: nitroSubscriptionStatus,
       color: bannerColor
 
