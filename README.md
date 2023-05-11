@@ -3,14 +3,14 @@
 # Enter a discord id to get info about:
 username,
 discriminator,
-system,
-bot,
+is system?,
+is bot?,
 tag,
 profile picture,
 account creation date,
 badges,
 nitro subscription status,
-bannerColor
+banner color
 and account age.
 
 # Made by Rednexie
