@@ -14,8 +14,8 @@
   <script>
       // Show a sweetalert2 input dialog with options
       Swal.fire({
-        title: 'Discord Id Sorgu',
-        text: 'Bilgi almak için discord user id gir',
+        title: 'Discord Id Lookup',
+        text: 'Paste a discord ip to get the user info.',
         input: 'text',
         inputAttributes: {
           autocapitalize: 'off'
@@ -23,13 +23,13 @@
         allowEscapeKey: false,
         allowEnterKey: false,
         allowOutsideClick: false,
-        confirmButtonText: 'Sorgula',
+        confirmButtonText: 'Lookup',
         showLoaderOnConfirm: true,
         preConfirm: (userId) => {
           // Validate the user id format using a regular expression
           if (!/^\d+$/.test(userId)) {
             swal.showValidationMessage(
-              `Lütfen geçerli bir discord idsi girin!`
+              `This id doesn't seem to be a legit discord id!`
             )
           }
           // Return a promise that resolves to the user info url with the user id as a query parameter
@@ -42,7 +42,7 @@
             })
             .catch(error => {
               swal.showValidationMessage(
-                `Böyle bir kullanıcı bulunamadı.`
+                `User not found with this discord id.`
               )
             })
         },
