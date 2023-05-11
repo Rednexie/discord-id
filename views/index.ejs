@@ -1,0 +1,59 @@
+<!-- index.ejs file -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2, minimum-scale=0.5">
+  <meta charset="UTF-8">
+  <title>Discord User Info</title>
+  <!-- Include sweetalert2 cdn -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body style="background-color: #111827">
+  <!-- Include a button to trigger the sweetalert2 input -->
+  <!-- Include a script to handle the input logic -->
+  <script>
+      // Show a sweetalert2 input dialog with options
+      Swal.fire({
+        title: 'Discord Id Sorgu',
+        text: 'Bilgi almak için discord user id gir',
+        input: 'text',
+        inputAttributes: {
+          autocapitalize: 'off'
+        },
+        allowEscapeKey: false,
+        allowEnterKey: false,
+        allowOutsideClick: false,
+        confirmButtonText: 'Sorgula',
+        showLoaderOnConfirm: true,
+        preConfirm: (userId) => {
+          // Validate the user id format using a regular expression
+          if (!/^\d+$/.test(userId)) {
+            swal.showValidationMessage(
+              `Lütfen geçerli bir discord idsi girin!`
+            )
+          }
+          // Return a promise that resolves to the user info url with the user id as a query parameter
+          return fetch(`/user/${userId}`)
+            .then(response => {
+              if (!response.ok) {
+                throw new Error(response.statusText)
+              }
+              return response.url;
+            })
+            .catch(error => {
+              swal.showValidationMessage(
+                `Böyle bir kullanıcı bulunamadı.`
+              )
+            })
+        },
+        allowOutsideClick: () => !swal.isLoading()
+      }).then((result) => {
+        // If the result is not null, redirect to the user info url
+        if (result.value) {
+          window.location.href = result.value;
+        }
+      })
+
+  </script>
+</body>
+</html>
