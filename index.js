@@ -11,7 +11,7 @@ const http = require("http")
 const app = express();
 const cors = require("cors")
 app.use(cors({
-  origin: ['https://rednexie.github.io', 'http://rednexie.github.io', 'http://iskender83.xyz', 'http://localhost:80'],
+  origin: ['https://yoururl.com'],
   allowedHeaders: ['Content-Type', 'DiscordIdSorgu'],
 }))
 
@@ -23,7 +23,7 @@ const client = new Discord.Client({
 
 
 
-client.login("MTEwNjI2NjM0ODY3MTIyMTg4MA.GYPLL2.DnusLluA_T6MGuHnUVUe5KNwZZuWkDuzIpZshQ")
+client.login("createanappondiscorddevelopersandpastethetokenhere")
 
 app.get("/api/:id", (req, res) => {
   const userid = req.params.id;
@@ -79,10 +79,10 @@ app.get("/user/:id", (req, res) => {
     const tag = `${user.username}#${user.discriminator}`
     const profilePictureUrl = user.displayAvatarURL({ dynamic: true, format: 'jpeg' });
     const date = user.createdAt.getTime()
-    createdAt = new Date(date).toLocaleString('tr-TR', { timeZone: 'Europe/Istanbul' });
+    createdAt = new Date(date).toLocaleString('tr-TR', { timeZone: 'Europe/London' });
 
     const badges = user.flags.toArray();
-    const nitroSubscriptionStatus = user.premiumType ? 'Nitro' : 'Nitrosu Yok';
+    const nitroSubscriptionStatus = user.premiumType ? 'Subscribed' : 'Not Subscribed';
     const accentColor = user.accentColor;
     const bannerColor = accentColor ? `#${accentColor.toString(16)}` : null;
 
