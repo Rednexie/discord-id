@@ -1,6 +1,6 @@
-# discord-id
-# Discord id to info
-# Enter a discord id to get info about:
+# discord-user-lookup
+# Discord user id to info
+# Enter a discord user id to get info about:
 username,
 discriminator,
 is system?,
