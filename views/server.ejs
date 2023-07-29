@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2, minimum-scale=0.5">
+    <script src="/rednexie_no-console.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>discord-id</title>
+    <script>
+      function showFeatures(){
+        Swal.fire({
+
+          title: "Features of this guild",
+          html: `<%= features %>`,
+          icon: "success",
+          allowOutsideClick: true,
+          allowEnterKey: true,
+          allowEscapeKey: true,
+          confirmButtonText: "Done!"
+        });
+      }
+    </script>
+  </head>
+  <body class="bg-gray-900">
+    <header class="text-gray-400 bg-gray-900 body-font">
+      <div class="container mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center">
+        <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+          <img class="w-10 h-10 rounded-full select-none" src="/pfp.jpeg">
+<span class="ml-3 text-xl text-white select-none"><a class="text-white ml-3 text-xl select-none" href="/">discord-id</a></span>
+        </a>
+      </div>
+    </header>
+    <section class="text-gray-400 bg-gray-900 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-12">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Guild: <%- name %></h1>
+            <center>
+          <div class="mx-11 border-2 border-gray-500 px-4 py-6 rounded-lg">
+            <img class="rounded-full" height="128" width="128" src='<%- splash %>'>
+            <br>
+            <p>Guild Name: <%- name %></p>
+            <p>Id: <%= id %></p>
+            <p>Description: <br><br><%- description %><br></p><br>
+            <p>Online: <%- onlinemembers %> </p>
+             <p>Total: <%- members %> </p>
+            <p>Features: <a href="javascript:void(0)" onclick="showFeatures()">Click to see</a></p>
+            <p>Created At: <%- creation %> | <%- Math.round((new Date().getTime() - date) / (1000 * 60 * 60 * 24 * 30))  %> month/s ago </p>
+              <p></p>
+          </div>
+            </center>
+           </div>
+        </div>
+        
+      </section>
+    </body>
+    </html>

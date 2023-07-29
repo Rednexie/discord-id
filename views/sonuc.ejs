@@ -2,13 +2,8 @@
 <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2, minimum-scale=0.5">
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css"
-  ntegrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
-  crossorigin="anonymous" referrerpolicy="no-referrer">
-  <script src="/no-console.js"></script>
+    <script src="/rednexie_no-console.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://unpkg.com/flowbite@1.5.4/dist/flowbite.js"></script>
-    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.4/dist/flowbite.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <title>discord-id</title>
   </head>
@@ -16,37 +11,36 @@
     <header class="text-gray-400 bg-gray-900 body-font">
       <div class="container mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center">
         <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
-<span class="ml-3 text-xl text-white select-none"><a class="text-white ml-3 text-xl select-none" href="https://github.com/Rednexie/discord-id">discord-id</a></span>
+          <img class="w-10 h-10 rounded-full select-none" src="/pfp.jpeg">
+<span class="ml-3 text-xl text-white select-none"><a class="text-white ml-3 text-xl select-none" href="/">discord-id</a></span>
         </a>
       </div>
     </header>
     <section class="text-gray-400 bg-gray-900 body-font">
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-col text-center w-full mb-12">
-            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Discord ID -> Info</h1>
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">User: <%- tag.endsWith("#0") ? tag.replace("#0","") : tag %></h1>
             <center>
           <div class="mx-11 border-2 border-gray-500 px-4 py-6 rounded-lg">
             <img class="rounded-full" height="128" width="128" src='<%- pfp %>'>
             <br>
-            <p>User tag: <%- tag %></p>
+            <p>Username: <%- tag.endsWith("#0") ? tag.replace("#0","") : tag %></p>
                  <% if(bot == true && system == true) { -%>
-                 <p>User Type: System Bot</p>
+                 <p>Account type: System Bot</p>
                  <% } -%>
                  <% if(bot == true && system == false) {-%>
-                 <p>User Type: Bot</p>
+                 <p>Account type: Bot</p>
                  <% } -%>
                  <% if(bot == false && system == false) {-%>
-                <p>User Type: Normal User</p>
+                <p>Account type: User</p>
                  <% } -%>
                  <% if(bot == false && system == true) {-%>
-                  <p>User Type: System</p>
+                  <p>Account type: System</p>
                  <% } -%>
-                 <p>Creation Date: <%- creation %></p>
-                 <p>Account Age: <%- Math.round((new Date().getTime() - date) / (1000 * 60 * 60 * 24 * 30))  %> month/s ago</p>
+                 <p>Created At: <%- createdAt %></p>
                  <p>Badges: <%= badges %></p>
                   <p>Nitro: <%= nitro %></p>
-                   <p>Banner Color: <span onclick="navigator.clipboard.writeText('<%- 
- color %>')" style="background-color: <%- color %>; color: #888"><%- color %></span><input style="margin-left: 10px" type="color" value="<%- color %>"></p>
+                   <p>Banner Color: <span oncontextmenu="try{if('<%- bannerColor %>' != null) navigator.clipboard.writeText('<%- bannerColor %>')} catch(err){prompt('Copy the banner color(no ssl sertificate)', '<%- bannerColor %>')}" onclick="try{if('<%- bannerColor %>' != null) navigator.clipboard.writeText('<%- bannerColor %>')} catch(err){prompt('Copy the banner color(no ssl sertificate)', '<%- bannerColor %>')}" style="background-color: <%- bannerColor %>; color: #888"><%- String(bannerColor) %></span></p>
           </div>
             </center>
            </div>

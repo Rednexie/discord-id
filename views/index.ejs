@@ -4,9 +4,10 @@
 <head>
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2, minimum-scale=0.5">
   <meta charset="UTF-8">
-  <title>Discord User Info</title>
+  <title>Discord Id to Info</title>
   <!-- Include sweetalert2 cdn -->
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="/rednexie_no-console.js"></script>
 </head>
 <body style="background-color: #111827">
   <!-- Include a button to trigger the sweetalert2 input -->
@@ -15,7 +16,7 @@
       // Show a sweetalert2 input dialog with options
       Swal.fire({
         title: 'Discord Id Lookup',
-        text: 'Paste a discord id to get the user info.',
+        text: 'Enter a discord id to get info about',
         input: 'text',
         inputAttributes: {
           autocapitalize: 'off'
@@ -29,11 +30,12 @@
           // Validate the user id format using a regular expression
           if (!/^\d+$/.test(userId)) {
             swal.showValidationMessage(
-              `This id doesn't seem to be a legit discord id!`
+              `Please enter a valid id!`
             )
+            return;
           }
           // Return a promise that resolves to the user info url with the user id as a query parameter
-          return fetch(`/user/${userId}`)
+          return fetch(`/info/${userId}`)
             .then(response => {
               if (!response.ok) {
                 throw new Error(response.statusText)
@@ -42,7 +44,7 @@
             })
             .catch(error => {
               swal.showValidationMessage(
-                `User not found with this discord id.`
+                `No user/server found with the given id.`
               )
             })
         },
