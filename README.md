@@ -7,7 +7,7 @@ tool to get info about discord id's
 User Info:
 
 
-username,
+_username,
 discriminator,
 is system?,
 is bot?,
@@ -17,13 +17,13 @@ account creation date,
 badges,
 nitro subscription status,
 banner color
-and account age.
+and account age._
 
 
 Guild Info:
 
 
-name, splash url, description, total members, online members, profile picture, server creation date, features, and server age.
+_name, splash url, description, total members, online members, profile picture, server creation date, features, and server age._
 
 
 Logs the ip addresses, id's and request times both to the console and a text file.
