@@ -67,7 +67,7 @@ Get a discord bot token, then create an environment variable:
 This will secure your token on platforms like replit or codesandbox.
 
 
-*node .* to run the script
+*node .* to start the server.
 
 
 
