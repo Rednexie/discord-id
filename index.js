@@ -17,6 +17,13 @@ app.use(express.static("static"))
 app.set("view engine","ejs");
 app.set("json spaces",2)
 
+app.use((req, res, next) => {
+  res.append('Access-Control-Allow-Origin', ['*']);
+  res.append('Access-Control-Allow-Methods', 'HEAD,GET,PUT,POST,DELETE');
+  res.append('Access-Control-Allow-Headers', 'Content-Type');
+  next();
+});
+
 const client = new Client({
     intents: 32767,
 });
