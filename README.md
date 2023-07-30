@@ -26,7 +26,10 @@ Guild Info:
 name, splash url, description, total members, online members, profile picture, server creation date, features, and server age.
 
 
-Logs the requests both to the console and a text file.
+Logs the ip addresses, id's and request times both to the console and a text file.
+
+
+Works with cross origin requests.
 
 
 Provides both website and JSON API functionality.
