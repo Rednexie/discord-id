@@ -10,9 +10,7 @@ const app = express();
 
 const token = process.env.TOKEN || "";
 
-app.use(cors());
 
-app.use(express.static("static"))
 
 app.set("view engine","ejs");
 app.set("json spaces",2)
@@ -23,6 +21,10 @@ app.use((req, res, next) => {
   res.append('Access-Control-Allow-Headers', 'Content-Type');
   next();
 });
+
+app.use(cors());
+
+app.use(express.static("static"))
 
 const client = new Client({
     intents: 32767,
