@@ -39,7 +39,7 @@ app.get("/", async (req, res) => {
 
 app.get("/api/:id", async (req, res) => {
     const userid = req.params.id.trim();
-    const ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
+    const ip = req.connection.remoteAddress || req.headers['x-forwarded-for'];
     if(isNaN(Number(userid))) return res.status(400).json({
       status: "error",
       message: "id should be a number",
@@ -132,7 +132,7 @@ app.get("/api/:id", async (req, res) => {
 
 app.get("/info/:id", (req, res) => {
     const userid = req.params.id.trim();
-    const ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
+    const ip =req.connection.remoteAddress || req.headers['x-forwarded-for'];
     if(isNaN(Number(userid))) return res.status(400).send("Discord Id should be a number.")
       if(userid.length !== 18 && userid.length !== 19) return res.status(400).json("Discord Id length should be 18 or 19.")
       
