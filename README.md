@@ -35,6 +35,9 @@ Works with cross origin requests.
 Provides both website and JSON API functionality.
 
 
+Cors requests are allowed.
+
+
 Works no matter if the user has got their new username or not(discord discriminator removal update)
 # Endpoints
 
@@ -45,7 +48,7 @@ Works no matter if the user has got their new username or not(discord discrimina
 / => Asks for a discord id.
 
 
-/info/ => Gives the info in website
+/info/ => Gives the info inside the website
 
 
 # Usage & Setup
