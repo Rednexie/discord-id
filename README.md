@@ -1,5 +1,5 @@
 # discord-id
-tool to get info about discord id's
+discord id lookup tool - to get info about discord id's
 
 # Functionality & Features
 
@@ -52,7 +52,7 @@ Works no matter if the user has got their new username or not(discord discrimina
 Install required dependencies:
 
 
-*npm i fs express discord.js@13 consoled.js@1.0.4 ejs cors*
+`npm i fs express discord.js@13 consoled.js@1.0.4 ejs cors`
 
 
 Get a discord bot token, then create an environment variable:
@@ -70,7 +70,7 @@ Get a discord bot token, then create an environment variable:
 This will secure your token on platforms like replit or codesandbox.
 
 
-*node .* to start the server.
+`node .` to start the server.
 
 
 
