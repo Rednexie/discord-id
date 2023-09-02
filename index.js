@@ -51,9 +51,9 @@ app.get("/api/:id", async (req, res) => {
       code: "400",
     })
     
-    log(`\n${ip == "::1" ? "127.0.0.1" : ip.replace("::ffff:")} => ${userid} | ${new Date().toLocaleString("tr-TR")}`)
+    log(`\n${ip == "::1" ? "127.0.0.1" : ip.replace("::ffff:","")} => ${userid} | ${new Date().toLocaleString("tr-TR")}`)
 
-    consoled.bright.blue(`\nAPI: ${ip == "::1" ? "127.0.0.1" : ip.replace("::ffff:")} => ${userid} | ${new Date().toLocaleString("tr-TR")}`)
+    consoled.bright.blue(`\nAPI: ${ip == "::1" ? "127.0.0.1" : ip.replace("::ffff:","")} => ${userid} | ${new Date().toLocaleString("tr-TR")}`)
 
     client.users.fetch(userid).then(user => {
         // Get the user information
@@ -136,9 +136,9 @@ app.get("/info/:id", (req, res) => {
     if(isNaN(Number(userid))) return res.status(400).send("Discord Id should be a number.")
       if(userid.length !== 18 && userid.length !== 19) return res.status(400).json("Discord Id length should be 18 or 19.")
       
-      log(`\n${ip == "::1" ? "127.0.0.1" : ip.replace("::ffff:")} => ${userid} | ${new Date().toLocaleString("tr-TR")}`)
+      log(`\n${ip == "::1" ? "127.0.0.1" : ip.replace("::ffff:","")} => ${userid} | ${new Date().toLocaleString("tr-TR")}`)
 
-      consoled.bright.green(`\nWEB: ${ip == "::1" ? "127.0.0.1" : ip.replace("::ffff:")} => ${userid} | ${new Date().toLocaleString("tr-TR")}`)
+      consoled.bright.green(`\nWEB: ${ip == "::1" ? "127.0.0.1" : ip.replace("::ffff:","")} => ${userid} | ${new Date().toLocaleString("tr-TR")}`)
     client.users.fetch(userid).then(user => {
         // Get the user information
         const bot = user.bot;
