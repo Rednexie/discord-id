@@ -75,57 +75,17 @@ This will secure your token on platforms like replit or codesandbox.
 # Testing 
 
 
-You can test the api [here](https://discord-id.rednexie.repl.co/)
+You can test the system [here](https://discord-id.rednexie.repl.co/)
 
 
-for example, the url `https://discord-id.rednexie.repl.co/api/866793047596728321`
-
-
-returns the response like 
-{
-
-  "status": "success",
-
-  "data": {
-
-    "timestamp": "2021-07-19T21:26:06.783Z",
-
-    "id": "866793047596728321",
-
-    "username": "rednexie",
-
-    "discriminator": "0",
-
-    "system": false,
-
-    "bot": false,
-
-    "tag": "rednexie",
-
-    "pfp": "https://cdn.discordapp.com/avatars/866793047596728321/ac6db6c5197c6eb46617f244c1a34cf1.jpeg",
-    
-    "createdAt": "19.07.2021 21:26:06",
-
-    "timezone": "UTC",
-
-    "badges": [
-
-      "HOUSE_BRILLIANCE"
-
-    ],
-    "nitro": false,
-
-    "bannerColor": "#ff0000"
-
-  },
-  
-  "code": 200
-
-}
+You can test the api [here](https://discord-id.rednexie.repl.co/api/866793047596728321)
 
 
 
-# Project Screenshots: 
+[example api response](https://raw.githubusercontent.com/Rednexie/discord-id/main/example.json)
+
+
+<h1>Project Screenshots:</h1>
 
 <h2>Website</h2>
 
