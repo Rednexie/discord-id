@@ -1,0 +1,40 @@
+{
+
+  "status": "success",
+
+  "data": {
+
+    "timestamp": "2021-07-19T21:26:06.783Z",
+
+    "id": "866793047596728321",
+
+    "username": "rednexie",
+
+    "discriminator": "0",
+
+    "system": false,
+
+    "bot": false,
+
+    "tag": "rednexie",
+
+    "pfp": "https://cdn.discordapp.com/avatars/866793047596728321/ac6db6c5197c6eb46617f244c1a34cf1.jpeg",
+    
+    "createdAt": "19.07.2021 21:26:06",
+
+    "timezone": "UTC",
+
+    "badges": [
+
+      "HOUSE_BRILLIANCE"
+
+    ],
+    "nitro": false,
+
+    "bannerColor": "#ff0000"
+
+  },
+  
+  "code": 200
+
+}
