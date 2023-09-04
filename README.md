@@ -82,7 +82,7 @@ for example, the url `https://discord-id.rednexie.repl.co/api/866793047596728321
 
 
 returns the response like 
-`{
+*{
 
 
   "status": "success",
@@ -137,7 +137,7 @@ returns the response like
   
   "code": 200
 
-}`
+}*
 
 
 
