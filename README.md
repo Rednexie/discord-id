@@ -133,13 +133,10 @@ returns the response like
     
     "bannerColor": "#ff0000"
 
-    
   },
-
   
   "code": 200
 
-  
 }`
 
 
