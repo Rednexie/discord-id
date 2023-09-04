@@ -110,6 +110,10 @@ You can test the api [here](https://discord-id.rednexie.repl.co/api/866793047596
 
 [https://discord-id.rednexie.repl.co/api/866793047596728321)](https://raw.githubusercontent.com/Rednexie/rednexie.github.io/main/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202023-09-04%20164308.png)
 
+
+---
+
+
 <h1>Technologies used in the project:</h1>
 
 *   fs
@@ -118,6 +122,10 @@ You can test the api [here](https://discord-id.rednexie.repl.co/api/866793047596
 *   consoled.js@1.0.4
 *   ejs
 *   cors
+
+
+---
+
 
 # Possible Updates
 
