@@ -75,7 +75,7 @@ This will secure your token on platforms like replit or codesandbox.
 # Testing 
 
 
-You can test the api [here]([here](https://discord-id.rednexie.repl.co/))
+You can test the api [here](https://discord-id.rednexie.repl.co/)
 
 
 for example, the url `https://discord-id.rednexie.repl.co/api/866793047596728321`
