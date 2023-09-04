@@ -118,8 +118,8 @@ You can test the api [here](https://discord-id.rednexie.repl.co/api/866793047596
 
 *   fs
 *   express
-*   discord.js@13
-*   consoled.js@1.0.4
+*   discord.js v13
+*   consoled.js v1.0.4
 *   ejs
 *   cors
 
