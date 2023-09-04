@@ -1,5 +1,5 @@
 # discord-id
-discord id lookup tool - server to get info about discord id's
+discord id lookup tool - node.js full-stack website and api to get info about discord id's
 
 # Functionality & Features
 
@@ -29,13 +29,16 @@ _name, splash url, description, total members, online members, profile picture, 
 Logs the ip addresses, id's and request times both to the console and a text file.
 
 
-Works with cross origin requests.
+Works with cross origin requests, CORS Requests are allowed.
 
 
 Provides both website and JSON API functionality.
 
 
 Works no matter if the user has got their new username or not(discord discriminator removal update)
+
+---
+
 # Endpoints
 
 
@@ -48,7 +51,11 @@ Works no matter if the user has got their new username or not(discord discrimina
 /info/ => Gives the info inside the website
 
 
+---
+
+
 # Usage & Setup
+
 Install required dependencies:
 
 
@@ -71,6 +78,10 @@ This will secure your token on platforms like replit or codesandbox.
 
 
 `node .` to start the server.
+
+
+---
+
 
 # Testing 
 
