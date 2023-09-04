@@ -134,6 +134,11 @@ You can test the api [here](https://discord-id.rednexie.repl.co/api/866793047596
 More logging options(mysql, perma.db, quick.db, json)
 
 
+
+More Interfaces(Command Line, Discord Bots)
+
+
+
 Data storing/caching
 
 
