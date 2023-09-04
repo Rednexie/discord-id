@@ -1,5 +1,5 @@
 # discord-id
-discord id lookup tool - to get info about discord id's
+discord id lookup tool - server to get info about discord id's
 
 # Functionality & Features
 
@@ -102,6 +102,22 @@ returns the response like `{
   },
   "code": 200
 }`
+
+
+
+# Project Screenshots: 
+
+<h2>Website</h2>
+
+[https://camo.githubusercontent.com/c8f71d47218ef6d16d624c712cf642fb86690a5eda59e2ef5a18354dc88055fd/68747470733a2f2f7265646e657869652e6769746875622e696f2f456b72616e25323067254333254236722543332542436e7425433325424373254333254243253230323032332d30392d30342532303136323735362e706e67](https://discord-id.rednexie.repl.co/)
+
+
+[https://camo.githubusercontent.com/5719c89c9f1a599a915855647535d65b96abb579084e43d0f770b3b149ed6d51/68747470733a2f2f7265646e657869652e6769746875622e696f2f456b72616e25323067254333254236722543332542436e7425433325424373254333254243253230323032332d30392d30342532303136323931332e706e67](https://discord-id.rednexie.repl.co/info/866793047596728321)
+
+
+<h2>API</h2>
+
+[https://raw.githubusercontent.com/Rednexie/rednexie.github.io/main/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202023-09-04%20164308.png](https://discord-id.rednexie.repl.co/api/866793047596728321)
 
 
 
