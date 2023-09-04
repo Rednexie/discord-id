@@ -6,9 +6,12 @@ const { Client, DiscordAPIError } = require("discord.js");
 const consoled = require("consoled.js");
 const ejs = require("ejs");
 const cors = require("cors");
+const config = require("./config.json")
 const app = express();
 
-const token = process.env.TOKEN || "";
+const token = process.env.TOKEN || config.token;
+
+const port = 80 || process.env.PORT || config.port
 
 
 
@@ -50,7 +53,7 @@ app.get("/api/:id", async (req, res) => {
       message: "id length should be equal to either 18 or 19",
       code: "400",
     })
-    
+
     log(`\n${ip == "::1" ? "127.0.0.1" : ip.replace("::ffff:","")} => ${userid} | ${new Date().toLocaleString("tr-TR")}`)
 
     consoled.bright.blue(`\nAPI: ${ip == "::1" ? "127.0.0.1" : ip.replace("::ffff:","")} => ${userid} | ${new Date().toLocaleString("tr-TR")}`)
@@ -70,10 +73,10 @@ app.get("/api/:id", async (req, res) => {
         const nitro = user.premiumType ? true : false;
         const accentColor = user.accentColor;
         const bannerColor = accentColor ? `#${accentColor.toString(16)}` : null;
-    
-    
+
+
         res.set('Content-Type', 'application/json');
-    
+
         res.json({
           status: "success",
           data: {
@@ -92,8 +95,8 @@ app.get("/api/:id", async (req, res) => {
           },
           code: 200,
         });
-    
-    
+
+
       }).catch(error => {
         client.fetchGuildPreview(userid).then(preview => {
           const keys = Object.keys(preview);
@@ -108,17 +111,17 @@ app.get("/api/:id", async (req, res) => {
             creation: preview.createdAt.toLocaleString("tr-TR", {/* timeZone: 'Europe/Istanbul' */}),
             timezone: "UTC",
             date: preview.createdAt.getTime()
-    
-    
+
+
           }
-    
+
           return res.json({
             status: "success",
             data: dcsonuc,
             code: 200,
           })
-    
-    
+
+
         }).catch(err => {
           res.status(404).json({
             status: "error",
@@ -127,7 +130,7 @@ app.get("/api/:id", async (req, res) => {
           })
         })
       })
-    
+
 })
 
 app.get("/info/:id", (req, res) => {
@@ -135,7 +138,7 @@ app.get("/info/:id", (req, res) => {
     const ip = req.headers['x-real-ip'] || req.headers['x-forwarded-for'] || req.connection?.remoteAddress || req.socket?.remoteAddress
     if(isNaN(Number(userid))) return res.status(400).send("Discord Id should be a number.")
       if(userid.length !== 18 && userid.length !== 19) return res.status(400).json("Discord Id length should be 18 or 19.")
-      
+
       log(`\n${ip == "::1" ? "127.0.0.1" : ip.replace("::ffff:","")} => ${userid} | ${new Date().toLocaleString("tr-TR")}`)
 
       consoled.bright.green(`\nWEB: ${ip == "::1" ? "127.0.0.1" : ip.replace("::ffff:","")} => ${userid} | ${new Date().toLocaleString("tr-TR")}`)
@@ -169,8 +172,8 @@ app.get("/info/:id", (req, res) => {
             nitro,
             bannerColor
         });
-    
-    
+
+
       }).catch(error => {
         client.fetchGuildPreview(userid).then(preview => {
 
@@ -185,13 +188,13 @@ app.get("/info/:id", (req, res) => {
             creation: preview.createdAt.toLocaleString("tr-TR", {/* timeZone: 'Europe/Istanbul' */}),
             timezone: "UTC",
             date: preview.createdAt.getTime()
-    
-    
+
+
           }
-    
+
           return res.render("server", dcsonuc)
-    
-    
+
+
         }).catch(err => {
             return res.status(404).send("Not found")
         })
@@ -199,7 +202,7 @@ app.get("/info/:id", (req, res) => {
 })
 
 
-const listener = app.listen(3000, () => {
+const listener = app.listen(port, () => {
     consoled.brightus.yellow("https://github.com/Rednexie/discord-id")
     consoled.bright.cyan(`Listening on http port ${listener.address().port}`);
   });
