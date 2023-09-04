@@ -76,4 +76,9 @@ This will secure your token on platforms like replit or codesandbox.
 `node .` to start the server.
 
 
+# Possible Updates
 
+More logging options(mysql, perma.db)
+
+
+Data storing/caching
