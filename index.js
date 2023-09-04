@@ -9,9 +9,9 @@ const cors = require("cors");
 const config = require("./config.json")
 const app = express();
 
-const token = process.env.TOKEN || config.token;
+const token = process.env.TOKEN || config.token || "";
 
-const port = 80 || process.env.PORT || config.port
+const port =  process.env.PORT || config.port || 80;
 
 
 
