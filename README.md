@@ -35,9 +35,6 @@ Works with cross origin requests.
 Provides both website and JSON API functionality.
 
 
-Cors requests are allowed.
-
-
 Works no matter if the user has got their new username or not(discord discriminator removal update)
 # Endpoints
 
