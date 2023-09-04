@@ -129,7 +129,8 @@ You can test the api [here](https://discord-id.rednexie.repl.co/api/866793047596
 
 # Possible Updates
 
-<h2>10 stars⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐</h2>
+<h2> at 10 stars⭐</h2>
+
 More logging options(mysql, perma.db, quick.db, json)
 
 
