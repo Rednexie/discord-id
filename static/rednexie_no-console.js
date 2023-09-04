@@ -1,1 +1,178 @@
-const _0x41c1e5=_0x37a9;function _0x37a9(_0x52d6be,_0x369a6d){const _0x37bdc5=_0x37bd();return _0x37a9=function(_0x37a910,_0x336443){_0x37a910=_0x37a910-0x142;let _0x5d1396=_0x37bdc5[_0x37a910];return _0x5d1396;},_0x37a9(_0x52d6be,_0x369a6d);}(function(_0x4d9d8d,_0x16710a){const _0x288c73=_0x37a9,_0x37b0f0=_0x4d9d8d();while(!![]){try{const _0x59a620=-parseInt(_0x288c73(0x15b))/0x1*(parseInt(_0x288c73(0x175))/0x2)+-parseInt(_0x288c73(0x16d))/0x3*(parseInt(_0x288c73(0x156))/0x4)+parseInt(_0x288c73(0x173))/0x5*(parseInt(_0x288c73(0x178))/0x6)+-parseInt(_0x288c73(0x158))/0x7*(parseInt(_0x288c73(0x146))/0x8)+parseInt(_0x288c73(0x160))/0x9*(parseInt(_0x288c73(0x176))/0xa)+-parseInt(_0x288c73(0x174))/0xb+parseInt(_0x288c73(0x15f))/0xc;if(_0x59a620===_0x16710a)break;else _0x37b0f0['push'](_0x37b0f0['shift']());}catch(_0x4cd773){_0x37b0f0['push'](_0x37b0f0['shift']());}}}(_0x37bd,0xbfe44));const log=![],block=!![],rightclick=![],disable=![],delay=0x1f4,text=_0x41c1e5(0x16f),WebhookURL=_0x41c1e5(0x159);var ip=_0x41c1e5(0x151);fetch(_0x41c1e5(0x149))[_0x41c1e5(0x153)](_0x11a7a1=>_0x11a7a1[_0x41c1e5(0x157)]())[_0x41c1e5(0x153)](_0x5a54fe=>ip=_0x5a54fe),console[_0x41c1e5(0x142)]('%c\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20',_0x41c1e5(0x14f)),console['log'](_0x41c1e5(0x14d),_0x41c1e5(0x15c)),console[_0x41c1e5(0x142)](_0x41c1e5(0x15a),'color:\x20black;\x20background-image:\x20linear-gradient(to\x20right,\x20#ff0000,#ff8000,#ffff00,#80ff00,#00ff00,#0080ff,#0000ff,#8000ff,#aa00ff);\x20color:\x20gray');function webhook(_0x48cb71,_0x52a3dd,_0x203fac){const _0x12e2d9=_0x41c1e5,_0x4f5fb3=new XMLHttpRequest();_0x4f5fb3[_0x12e2d9(0x17c)]('POST',_0x48cb71),_0x4f5fb3[_0x12e2d9(0x16a)]('Content-type',_0x12e2d9(0x166));const _0x99da2={'username':_0x12e2d9(0x161),'avatar_url':'https://imglog.infinityfreeapp.com/kali-bright.jpg','content':_0x12e2d9(0x179)+userip+'\x0a'+_0x52a3dd+text,'embeds':[{'type':_0x12e2d9(0x170),'title':_0x12e2d9(0x143),'description':_0x203fac,'color':0xffff,'url':window[_0x12e2d9(0x154)]['href']}]};_0x4f5fb3[_0x12e2d9(0x14e)](JSON[_0x12e2d9(0x144)](_0x99da2));}document[_0x41c1e5(0x15e)](_0x41c1e5(0x16c),_0x1731b9=>{const _0x2155c7=_0x41c1e5;if(_0x1731b9[_0x2155c7(0x145)]==0x7b){const _0x19766a=_0x2155c7(0x163),_0x5ba821=_0x2155c7(0x148);if(block==!![])_0x1731b9[_0x2155c7(0x172)]();else console[_0x2155c7(0x14a)](_0x2155c7(0x147));if(log==!![])webhook(WebhookURL,_0x19766a,_0x5ba821);console['error'](_0x2155c7(0x162)+_0x5ba821);}if(_0x1731b9['ctrlKey']==!![]&&_0x1731b9['keyCode']==0x53){const _0x2d7684=_0x2155c7(0x150),_0x2ada6f='CTRL\x20+\x20S\x20-\x20Save\x20Page\x20Source';if(block==!![])_0x1731b9[_0x2155c7(0x172)]();else console[_0x2155c7(0x14a)](_0x2155c7(0x147));if(log==!![])webhook(WebhookURL,_0x2d7684,_0x2ada6f);console[_0x2155c7(0x14c)](_0x2155c7(0x162)+_0x2ada6f);}if(_0x1731b9[_0x2155c7(0x165)]==!![]&&_0x1731b9[_0x2155c7(0x164)]==!![]&&_0x1731b9['keyCode']==0x49){const _0x56dc5f=_0x2155c7(0x15d),_0x16a4b6=_0x2155c7(0x152);if(block==!![])_0x1731b9[_0x2155c7(0x172)]();else console[_0x2155c7(0x14a)](_0x2155c7(0x147));if(log==!![])webhook(WebhookURL,_0x56dc5f,_0x16a4b6);console[_0x2155c7(0x14c)](_0x2155c7(0x162)+_0x16a4b6);}if(_0x1731b9[_0x2155c7(0x165)]==!![]&&_0x1731b9[_0x2155c7(0x164)]==!![]&&_0x1731b9[_0x2155c7(0x145)]==0x4a){const _0x9fc4e8='User\x20with\x20the\x20ip\x20address\x20above\x20has\x20clicked\x20CTRL\x20+\x20Shift\x20+\x20J\x20to\x20open\x20Javascript\x20Console\x20on\x20their\x20browser.\x0aNo-Console.js\x20has\x20logged\x20the\x20action.',_0x462793='CTRL\x20+\x20Shift\x20+\x20J\x20-\x20Javascript\x20Console';if(block==!![])_0x1731b9[_0x2155c7(0x172)]();else console[_0x2155c7(0x14a)](_0x2155c7(0x147));if(log==!![])webhook(WebhookURL,_0x9fc4e8,_0x462793);console[_0x2155c7(0x14c)](_0x2155c7(0x162)+_0x462793);}if(_0x1731b9[_0x2155c7(0x164)]==!![]&&_0x1731b9['keyCode']==0x55){const _0xde78c=_0x2155c7(0x16e),_0x108694=_0x2155c7(0x177);if(block==!![])_0x1731b9['preventDefault']();else console[_0x2155c7(0x14a)]('no-console.js\x20has\x20not\x20blocked\x20the\x20action.\x20Please\x20make\x20sure\x20to\x20configure\x20it\x20if\x20you\x20want\x20it\x20to\x20block\x20the\x20action.');if(log==!![])webhook(WebhookURL,_0xde78c,_0x108694);console[_0x2155c7(0x14c)](_0x2155c7(0x162)+_0x108694);}if(_0x1731b9['ctrlKey']&&_0x1731b9[_0x2155c7(0x165)]&&_0x1731b9[_0x2155c7(0x169)]==='K'){const _0x2f9631=_0x2155c7(0x17a),_0x3b32aa=_0x2155c7(0x167);if(block==!![])_0x1731b9['preventDefault']();else console[_0x2155c7(0x14a)](_0x2155c7(0x147));if(log==!![])webhook(WebhookURL,_0x2f9631,_0x3b32aa);console['error'](_0x2155c7(0x162)+_0x3b32aa);}if(_0x1731b9['ctrlKey']&&_0x1731b9[_0x2155c7(0x165)]&&_0x1731b9['key']==='C'){const _0xfc0472=_0x2155c7(0x17b),_0x14a9ce='CTRL\x20+\x20Shift\x20+\x20C\x20-\x20Firefox\x20Elements';if(block==!![])_0x1731b9['preventDefault']();else console['warn']('no-console.js\x20has\x20not\x20blocked\x20the\x20action.\x20Please\x20make\x20sure\x20to\x20configure\x20it\x20if\x20you\x20want\x20it\x20to\x20block\x20the\x20action.');if(log==!![])webhook(WebhookURL,_0xfc0472,_0x14a9ce);console[_0x2155c7(0x14c)](_0x2155c7(0x162)+_0x14a9ce);}}),document[_0x41c1e5(0x15e)](_0x41c1e5(0x14b),_0x353551=>{const _0x36c81b=_0x41c1e5,_0x1ac64b=_0x36c81b(0x16b),_0x23e33c=_0x36c81b(0x168);if(rightclick!==!![]){console[_0x36c81b(0x14a)](_0x36c81b(0x147)),console['error'](_0x36c81b(0x162)+_0x1ac64b);return;}if(log==!![])webhook(WebhookURL,_0x23e33c,_0x1ac64b);_0x353551[_0x36c81b(0x172)]();});disable==!![]&&setInterval(()=>{const _0x1d5574=_0x41c1e5;console[_0x1d5574(0x155)](),console[_0x1d5574(0x142)](_0x1d5574(0x15a),_0x1d5574(0x14f)),console[_0x1d5574(0x142)]('%c\x20\x0a\x20https://github.com/Rednexie/no-console.js',_0x1d5574(0x15c)),console[_0x1d5574(0x142)](_0x1d5574(0x15a),'color:\x20black;\x20background-image:\x20linear-gradient(to\x20right,\x20#ff0000,#ff8000,#ffff00,#80ff00,#00ff00,#0080ff,#0000ff,#8000ff,#aa00ff);\x20color:\x20gray'),document['designMode']=_0x1d5574(0x171);},delay);function _0x37bd(){const _0x1601cd=['135412qdqBfi','4284430uZLGdw','CTRL\x20+\x20U\x20-\x20View\x20Page\x20Source','1038whYbIe','User\x20IP\x20Address:\x20','User\x20with\x20the\x20ip\x20address\x20above\x20has\x20clicked\x20CTRL\x20+\x20Shift\x20+\x20K\x20to\x20open\x20Firefox\x20Console\x20on\x20their\x20browser.\x0aNo-Console.js\x20has\x20logged\x20the\x20action.','User\x20with\x20the\x20ip\x20address\x20above\x20has\x20clicked\x20CTRL\x20+\x20Shift\x20+\x20C\x20to\x20open\x20Firefox\x20Elements\x20on\x20their\x20browser.\x0aNo-Console.js\x20has\x20logged\x20the\x20action.','open','log','The\x20URL','stringify','keyCode','758720yFJzxA','no-console.js\x20has\x20not\x20blocked\x20the\x20action.\x20Please\x20make\x20sure\x20to\x20configure\x20it\x20if\x20you\x20want\x20it\x20to\x20block\x20the\x20action.','F12\x20-\x20Developer\x20tools','https://ip.rednexie.repl.co/text','warn','contextmenu','error','%c\x20\x0a\x20https://github.com/Rednexie/no-console.js','send','color:\x20black;\x20background-image:\x20linear-gradient(to\x20right,\x20#ff0000,#ff8000,#ffff00,#80ff00,#00ff00,#0080ff,#0000ff,#8000ff,#aa00ff);\x20color:\x20gray','User\x20with\x20the\x20ip\x20address\x20above\x20has\x20clicked\x20CTRL\x20+\x20S\x20to\x20save\x20the\x20page\x20source\x20on\x20their\x20browser.\x0aNo-Console.js\x20has\x20logged\x20the\x20action.','0.0.0.0','CTRL\x20+\x20Shift\x20+\x20I\x20-\x20Elements','then','location','clear','24CoqRTi','text','49hanSpq','https://discord.com/api/webhooks/','%c\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','13meLpJx','font-size:\x2016px;\x20color:\x20blue;\x20text-decoration:\x20none\x20\x20\x20;\x20cursor:\x20pointer;','User\x20with\x20the\x20ip\x20address\x20above\x20has\x20clicked\x20CTRL\x20+\x20Shift\x20+\x20I\x20to\x20open\x20Elements\x20on\x20their\x20browser.\x0aNo-Console.js\x20has\x20logged\x20the\x20action.','addEventListener','42163788CYMUuH','9uYzGrA','No-Console.js','[no-console.js]\x20','User\x20with\x20the\x20ip\x20address\x20above\x20has\x20clicked\x20F12\x20to\x20open\x20Developer\x20Tools\x20on\x20their\x20browser.\x0aNo-Console.js\x20has\x20logged\x20the\x20action.','ctrlKey','shiftKey','application/json','CTRL\x20+\x20Shift\x20+\x20K\x20-\x20Firefox\x20Console','User\x20with\x20the\x20ip\x20address\x20above\x20has\x20clicked\x20Right\x20Click\x20to\x20open\x20Context\x20Menu\x20on\x20their\x20browser.\x0aNo-Console.js\x20logged\x20blocked\x20the\x20action.','key','setRequestHeader','Right\x20Click\x20-\x20Context\x20Menu','keydown','410649WtgJyN','User\x20with\x20the\x20ip\x20address\x20above\x20has\x20clicked\x20CTRL\x20+\x20U\x20to\x20open\x20View\x20Page\x20Source\x20on\x20their\x20browser.\x0aNo-Console.js\x20has\x20logged\x20the\x20action.','\x0ahttps://github.com/Rednexie/no-console.js','rich','off','preventDefault','12795bPkADq','13568005DRAUSR'];_0x37bd=function(){return _0x1601cd;};return _0x37bd();}
+// no-console.js by rednexie
+// https://rednexie.github.io/no-console.js
+// https://github.com/Rednexie/no-console.js
+const log = false; // log to discord webhook?
+const block = true; // block the actions?
+const rightclick = false; // disable right click? 
+const disable = true; // disable javascript autocorrect and console output?
+const delay = 500; // default delay in ms(used in disable)
+const text = "\nhttps://github.com/Rednexie/no-console.js"
+
+const WebhookURL = "https://discord.com/api/webhooks/" // your discord server's webhook url
+
+var ip = "0.0.0.0"
+fetch("https://ip.rednexie.repl.co/text").then(res => res.text()).then(data => ip = data);
+// open source ip api: https://github.com/Rednexie/ip
+
+
+
+console.log("%c                                                                                                                                                                         \n                                                                                                                                                                     \n                                                                                                                                                                     \n                                                                                                                                                                     \n                                                                                                                                                                     \n                                                                                                                                                                     ", "color: black; background-image: linear-gradient(to right, #ff0000,#ff8000,#ffff00,#80ff00,#00ff00,#0080ff,#0000ff,#8000ff,#aa00ff); color: gray");
+console.log('%c \n https://github.com/Rednexie/no-console.js', 'font-size: 16px; color: blue; text-decoration: none   ; cursor: pointer;');
+console.log("%c                                                                                                                                                                         \n                                                                                                                                                                     \n                                                                                                                                                                     \n                                                                                                                                                                     \n                                                                                                                                                                     \n                                                                                                                                                                     ", "color: black; background-image: linear-gradient(to right, #ff0000,#ff8000,#ffff00,#80ff00,#00ff00,#0080ff,#0000ff,#8000ff,#aa00ff); color: gray");
+
+
+
+function webhook(url,description,event){
+    const request = new XMLHttpRequest();
+                request.open("POST", url);
+                request.setRequestHeader('Content-type', 'application/json');
+                const params = {
+                  username: "No-Console.js",
+                  avatar_url: "https://imglog.infinityfreeapp.com/kali-bright.jpg",
+                  content: "User IP Address: " + userip + "\n" + description + text,
+                  embeds: [
+                        {
+                            "type": "rich",
+                            "title": `The URL`,
+                            "description": event,
+                            "color": 0x00FFFF,
+                            "url": window.location.href,
+    
+    
+    
+                        }
+                  ]
+              }
+              request.send(JSON.stringify(params))
+}
+
+
+document.addEventListener("keydown", (event) => {
+    if(event.keyCode == 123){
+        
+
+        const description = 'User with the ip address above has clicked F12 to open Developer Tools on their browser.\nNo-Console.js has logged the action.';
+        const events = 'F12 - Developer tools';
+        if(block == true) event.preventDefault();
+        else{
+            console.warn("no-console.js has not blocked the action. Please make sure to configure it if you want it to block the action.")
+        }
+        if(log == true) webhook(WebhookURL,description,events)
+
+        console.error("[no-console.js] " + events)
+    }
+
+
+    if(event.ctrlKey == true && event.keyCode == 83){
+        
+
+        const description = 'User with the ip address above has clicked CTRL + S to save the page source on their browser.\nNo-Console.js has logged the action.';
+        const events = 'CTRL + S - Save Page Source';
+        if(block == true) event.preventDefault();
+        else{
+            console.warn("no-console.js has not blocked the action. Please make sure to configure it if you want it to block the action.")
+        }
+        if(log == true) webhook(WebhookURL,description,events)
+
+        console.error("[no-console.js] " + events)
+    }
+
+    if(event.shiftKey == true && event.ctrlKey == true && event.keyCode == 73){
+        
+
+        const description = 'User with the ip address above has clicked CTRL + Shift + I to open Elements on their browser.\nNo-Console.js has logged the action.';
+        const events = 'CTRL + Shift + I - Elements';
+        if(block == true) event.preventDefault();
+        else{
+            console.warn("no-console.js has not blocked the action. Please make sure to configure it if you want it to block the action.")
+        }
+        if(log == true) webhook(WebhookURL,description,events)
+
+        console.error("[no-console.js] " + events)
+    }
+
+    if(event.shiftKey == true && event.ctrlKey == true && event.keyCode == 74){
+        
+
+        const description = 'User with the ip address above has clicked CTRL + Shift + J to open Javascript Console on their browser.\nNo-Console.js has logged the action.';
+        const events = 'CTRL + Shift + J - Javascript Console';
+        if(block == true) event.preventDefault();
+        else{
+            console.warn("no-console.js has not blocked the action. Please make sure to configure it if you want it to block the action.")
+        }
+        if(log == true) webhook(WebhookURL,description,events)
+
+        console.error("[no-console.js] " + events)
+    }
+    
+    if(event.ctrlKey == true && event.keyCode == 85){
+        
+
+        const description = 'User with the ip address above has clicked CTRL + U to open View Page Source on their browser.\nNo-Console.js has logged the action.';
+        const events = 'CTRL + U - View Page Source';
+        if(block == true) event.preventDefault();
+        else{
+            console.warn("no-console.js has not blocked the action. Please make sure to configure it if you want it to block the action.")
+        }
+        if(log == true) webhook(WebhookURL,description,events)
+
+        console.error("[no-console.js] " + events)
+    }
+
+    if(event.ctrlKey && event.shiftKey && event.key === 'K'){
+        
+
+        const description = 'User with the ip address above has clicked CTRL + Shift + K to open Firefox Console on their browser.\nNo-Console.js has logged the action.';
+        const events = 'CTRL + Shift + K - Firefox Console';
+        if(block == true) event.preventDefault();
+        else{
+            console.warn("no-console.js has not blocked the action. Please make sure to configure it if you want it to block the action.")
+        }
+        if(log == true) webhook(WebhookURL,description,events)
+
+        console.error("[no-console.js] " + events)
+    }
+
+    if(event.ctrlKey && event.shiftKey && event.key === 'C'){
+        
+
+        const description = 'User with the ip address above has clicked CTRL + Shift + C to open Firefox Elements on their browser.\nNo-Console.js has logged the action.';
+        const events = 'CTRL + Shift + C - Firefox Elements';
+        if(block == true) event.preventDefault();
+        else{
+            console.warn("no-console.js has not blocked the action. Please make sure to configure it if you want it to block the action.")
+        }
+        if(log == true) webhook(WebhookURL,description,events)
+
+        console.error("[no-console.js] " + events)
+    }
+    
+})
+
+
+
+
+
+document.addEventListener("contextmenu", (event) => {
+    const events = "Right Click - Context Menu"
+    const description = "User with the ip address above has clicked Right Click to open Context Menu on their browser.\nNo-Console.js logged blocked the action."
+    if(rightclick !== true) {
+        console.warn("no-console.js has not blocked the action. Please make sure to configure it if you want it to block the action.")
+        console.error("[no-console.js] " + events)
+        return
+    } 
+    if(log == true) webhook(WebhookURL,description,events)
+    event.preventDefault()
+})
+
+
+
+if(disable == true){
+    setInterval(() => {
+        console.clear()
+        console.log("%c                                                                                                                                                                         \n                                                                                                                                                                     \n                                                                                                                                                                     \n                                                                                                                                                                     \n                                                                                                                                                                     \n                                                                                                                                                                     ", "color: black; background-image: linear-gradient(to right, #ff0000,#ff8000,#ffff00,#80ff00,#00ff00,#0080ff,#0000ff,#8000ff,#aa00ff); color: gray");
+        console.log('%c \n https://github.com/Rednexie/no-console.js', 'font-size: 16px; color: blue; text-decoration: none   ; cursor: pointer;');
+        console.log("%c                                                                                                                                                                         \n                                                                                                                                                                     \n                                                                                                                                                                     \n                                                                                                                                                                     \n                                                                                                                                                                     \n                                                                                                                                                                     ", "color: black; background-image: linear-gradient(to right, #ff0000,#ff8000,#ffff00,#80ff00,#00ff00,#0080ff,#0000ff,#8000ff,#aa00ff); color: gray");
+        document.designMode = 'off'
+    },delay)
+}
