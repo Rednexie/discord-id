@@ -59,7 +59,9 @@ Works no matter if the user has got their new username or not(discord discrimina
 Install required dependencies:
 
 
-`npm i fs express discord.js@13 consoled.js@1.0.4 ejs cors`
+```bash
+npm i fs express discord.js@13 consoled.js@1.0.4 ejs cors
+```
 
 
 Get a discord bot token, then create an environment variable:
