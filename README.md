@@ -81,7 +81,8 @@ This will secure your token on platforms like replit or codesandbox.
 
 ```bash
 node .
-``` to start the server.
+```
+to start the server.
 
 
 ---
