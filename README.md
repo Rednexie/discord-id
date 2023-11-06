@@ -143,6 +143,11 @@ More logging options(mysql, perma.db, quick.db, json)
 More Interfaces(Command Line, Discord Bots)
 
 
+Data storing/caching
+
+
+Rate Limiting
+
 
 # Links
 [Download as Zip](https://github.com/Rednexie/discord-id/archive/refs/heads/main.zip)
@@ -156,8 +161,3 @@ More Interfaces(Command Line, Discord Bots)
 
 [Create Github Codespace](https://github.com/codespaces/new?quickstart=1&name=discordtemplate&repo=Rednexie/discord-id)
 
-
-Data storing/caching
-
-
-Rate Limiting
