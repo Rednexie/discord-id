@@ -76,7 +76,7 @@ Get a discord bot token, then create an environment variable:
 *$env:TOKEN="your-discord-bot-token"* for windows powershell
 
 
-This will secure your token on platforms like replit or codesandbox.
+On cloud hosting platforms like replit, codespaces, glitch, codesandbox etc, use the platform's integrated secrets feature.
 
 
 ```bash
